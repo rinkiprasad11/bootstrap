@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <script src='js/bootstrap.min.js'></script>
+</head>
+<body>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m" style="margin-top: 30px; margin-left: 80px;">Login</button>
+
+    <div class="modal fade" id="m" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title">Login</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>  
+                </div>
+                <div class="modal-body">
+                    <div class="form-group col-12">
+                        <label>Username</label>
+                        <input type="text" class="form-control" placeholder="Login Username">
+                    </div>
+                    <br>
+                    <div class="form-group col-12">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Login Password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="mt-2">
+                        <input type="submit" class="btn btn-success" value="Login" style="background-color: blue;">
+                        <input type="button" class="btn btn-success" value="Close" style="background-color: blue;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
